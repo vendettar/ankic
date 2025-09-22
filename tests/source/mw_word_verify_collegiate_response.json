@@ -1,0 +1,193 @@
+[
+    {
+        "meta": {
+            "id": "verify",
+            "uuid": "4878ecfb-c5d5-42ad-b41f-7357809bf466",
+            "sort": "220057100",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "verified",
+                "verifier",
+                "verifiers",
+                "verifies",
+                "verify",
+                "verifying"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ver*i*fy",
+            "prs": [
+                {
+                    "mw": "ˈver-ə-ˌfī",
+                    "sound": {
+                        "audio": "verify01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "ifc": "-fied",
+                "if": "ver*i*fied"
+            },
+            {
+                "ifc": "-fy*ing",
+                "if": "ver*i*fy*ing"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to establish the truth, accuracy, or reality of "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}verify{\/wi} the claim"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to confirm or substantiate in law by oath"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "ver*i*fi*er",
+                "prs": [
+                    {
+                        "mw": "ˈver-ə-ˌfī(-ə)r",
+                        "sound": {
+                            "audio": "verifi04",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "noun"
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}confirm{\/sc} {sc}corroborate{\/sc} {sc}substantiate{\/sc} {sc}verify{\/sc} {sc}authenticate{\/sc} {sc}validate{\/sc} mean to attest to the truth or validity of something. {sc}confirm{\/sc} implies the removing of doubts by an authoritative statement or indisputable fact. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}confirmed{\/it} the reports"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}corroborate{\/sc} suggests the strengthening of what is already partly established. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "witnesses {it}corroborated{\/it} his story"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}substantiate{\/sc} implies the offering of evidence that sustains the contention. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "the claims have yet to be {it}substantiated{\/it}"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}verify{\/sc} implies the establishing of correspondence of actual facts or details with those proposed or guessed at. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "all statements of fact in the article have been {it}verified{\/it}"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}authenticate{\/sc} implies establishing genuineness by adducing legal or official documents or expert opinion. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "handwriting experts {it}authenticated{\/it} the diaries"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}validate{\/sc} implies establishing validity by authoritative affirmation or by factual proof. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}validated{\/it} the hypothesis by experiments"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English {it}verifien{\/it}, borrowed from Anglo-French {it}verifier{\/it}, borrowed from Medieval Latin {it}vērificāre{\/it}, from Latin {it}vērus{\/it} \"true\" + {it}-ficāre{\/it} {et_link|-fy|-fy} {ma}{mat|very:2|}{\/ma}"
+            ]
+        ],
+        "date": "14th century{ds||2||}",
+        "shortdef": [
+            "to establish the truth, accuracy, or reality of",
+            "to confirm or substantiate in law by oath"
+        ]
+    }
+]

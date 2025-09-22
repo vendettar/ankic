@@ -1,0 +1,30 @@
+<div class="phonetics-compact">
+  {{#USPhonetic}}
+  <button class="phonetic-item us" type="button" data-audio-target="us-audio" title="Play US" aria-label="Play US audio">
+    <span class="phonetic-label" title="US">🇺🇸</span>
+    <span class="phonetic-text">{{USPhonetic}}</span>
+  </button>
+  {{/USPhonetic}}
+  {{^USPhonetic}}{{#USAudio}}
+  <button class="phonetic-item us" type="button" data-audio-target="us-audio" title="Play US" aria-label="Play US audio">
+    <span class="phonetic-label" title="US">🇺🇸</span>
+    <span class="phonetic-text"></span>
+  </button>
+  {{/USAudio}}{{/USPhonetic}}
+
+  {{#UKPhonetic}}
+  <button class="phonetic-item uk" type="button" data-audio-target="uk-audio" title="Play UK" aria-label="Play UK audio">
+    <span class="phonetic-label" title="UK">🇬🇧</span>
+    <span class="phonetic-text">{{UKPhonetic}}</span>
+  </button>
+  {{/UKPhonetic}}
+  {{^UKPhonetic}}{{#UKAudio}}
+  <button class="phonetic-item uk" type="button" data-audio-target="uk-audio" title="Play UK" aria-label="Play UK audio">
+    <span class="phonetic-label" title="UK">🇬🇧</span>
+    <span class="phonetic-text"></span>
+  </button>
+  {{/UKAudio}}{{/UKPhonetic}}
+</div>
+
+{{#USAudio}}<audio id="us-audio" preload="none"><source src="{{USAudio}}" type="audio/mpeg"></audio>{{/USAudio}}
+{{#UKAudio}}<audio id="uk-audio" preload="none"><source src="{{UKAudio}}" type="audio/mpeg"></audio>{{/UKAudio}}

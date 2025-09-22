@@ -1,0 +1,70 @@
+<div class="mw-section">
+  <h3>📚 Merriam-Webster</h3>
+
+  <div class="mw-basic-info">
+    {{#MWPronunciation}}<div class="mw-pronunciation">IPA: {{MWPronunciation}}</div>{{/MWPronunciation}}
+    {{#MWStems}}<div class="mw-stems-compact">Forms: {{MWStems}}</div>{{/MWStems}}
+    {{#MWWordInflections}}<div class="mw-word-inflections">Inflections: {{MWWordInflections}}</div>{{/MWWordInflections}}
+  </div>
+
+  <div class="mw-structured-entries-section">
+    <h3>📚 Definitions</h3>
+    [% for i in range(1, 26) %]
+    {{#MWStructuredEntry[[ i ]]}}
+    <div class="mw-structured-entry-item">
+      <div class="mw-entry-content">{{MWStructuredEntry[[ i ]]}}</div>
+    </div>
+    {{/MWStructuredEntry[[ i ]]}}
+    [% endfor %]
+  </div>
+
+  {{#MWLearnerDefinitions}}
+  <div class="mw-learner-definitions">
+    <h5>🎓 Learner Definitions</h5>
+    <div class="mw-learner-text">{{MWLearnerDefinitions}}</div>
+  </div>
+  {{/MWLearnerDefinitions}}
+
+  {{#MWExamples}}
+  <div class="mw-examples">
+    <h5>💬 Examples</h5>
+    <div class="mw-examples-text">{{MWExamples}}</div>
+  </div>
+  {{/MWExamples}}
+
+  {{#MWSynonyms}}
+  <div class="mw-synonyms">
+    <h5>🔗 Synonyms</h5>
+    <div class="mw-synonym-list">{{MWSynonyms}}</div>
+  </div>
+  {{/MWSynonyms}}
+
+  {{#MWAntonyms}}
+  <div class="mw-antonyms">
+    <h5>⚡ Antonyms</h5>
+    <div class="mw-antonym-list">{{MWAntonyms}}</div>
+  </div>
+  {{/MWAntonyms}}
+
+  {{#MWStems}}
+  <div class="mw-stems">
+    <h5>🌱 Word Forms</h5>
+    <div class="mw-stems-list">{{MWStems}}</div>
+  </div>
+  {{/MWStems}}
+
+  {{#MWCollegiateSynonyms}}
+  <div class="mw-collegiate-synonyms">
+    <h5>📖 Synonyms Discussion</h5>
+    <div class="mw-collegiate-synonyms-text">{{MWCollegiateSynonyms}}</div>
+  </div>
+  {{/MWCollegiateSynonyms}}
+
+  {{#MWEtymology}}
+  <div class="mw-etymology">
+    <h5>📜 Etymology</h5>
+    <div class="mw-etymology-text">{{MWEtymology}}</div>
+  </div>
+  {{/MWEtymology}}
+</div>
+</div>

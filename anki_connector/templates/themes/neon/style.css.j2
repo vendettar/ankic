@@ -1,0 +1,68 @@
+[% extends 'style_base.css.j2' %]
+[% block style %]
+[[ super() ]]
+/* Neon theme — high contrast, vivid accents */
+:root {
+  --card-bg: linear-gradient(135deg, #0b0f1a 0%, #111827 50%, #1f1147 100%);
+  --text-color: #c8d3f5;       /* soft neon foreground */
+  --heading-color: #e6eaff;    /* brighter headings */
+  --body-color: #c8d3f5;       /* body text */
+  --section-bg: rgba(255,255,255,0.08);
+  --definition-item-bg: rgba(19, 26, 44, 0.72); /* bluish */
+
+  /* Phonetic chips — neon cyan & magenta */
+  --us-bg: rgba(0, 255, 245, 0.22);
+  --us-border: rgba(0, 255, 245, 0.65);
+  --uk-bg: rgba(255, 93, 153, 0.22);
+  --uk-border: rgba(255, 93, 153, 0.65);
+  --label-color: rgba(255,255,255,0.95);
+
+  /* POS tags */
+  --pos-bg: #bb9af7;           /* purple */
+  --pos-color: #0b0f1a;        /* very dark for contrast */
+
+  /* Accents (borders on explanations) */
+  --accent-short: #7dcfff;     /* neon cyan */
+  --accent-long: #ff5d99;      /* neon pink */
+}
+
+/* Stronger visual identity: mild outer glow */
+.card-container {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 1px rgba(125, 207, 255, 0.08), 0 0 22px rgba(187, 154, 247, 0.12);
+}
+
+/* Crisper title for neon theme */
+.word {
+  color: var(--heading-color);
+  text-shadow: none;
+}
+
+/* Section frames with subtle border */
+.definitions-section,
+.forms-section,
+.explanation-section {
+  border: 1px solid rgba(186, 199, 255, 0.12);
+}
+
+/* Neon chips glow */
+.phonetic-item.us {
+  box-shadow: 0 0 0 1px var(--us-border), 0 0 14px rgba(0, 255, 245, 0.28);
+}
+.phonetic-item.uk {
+  box-shadow: 0 0 0 1px var(--uk-border), 0 0 14px rgba(255, 93, 153, 0.28);
+}
+
+/* POS tags subtle glow */
+.part-of-speech {
+  box-shadow: 0 0 0 1px rgba(187, 154, 247, 0.4), 0 0 12px rgba(187, 154, 247, 0.25);
+}
+
+/* Themed inline accents */
+.example {
+  color: #ff7aa2; /* neon rose */
+}
+.synonyms,
+.antonyms {
+  color: #a5b4fc; /* indigo-300 */
+}
+[% endblock %]

@@ -1,0 +1,890 @@
+[
+    {
+        "meta": {
+            "id": "project:1",
+            "uuid": "44c97fc7-03b7-425c-8e9b-4968d6319d35",
+            "sort": "167837000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "project",
+                "projects"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "proj*ect",
+            "prs": [
+                {
+                    "mw": "ˈprä-ˌjekt",
+                    "sound": {
+                        "audio": "projec01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "-jikt"
+                },
+                {
+                    "l": "also",
+                    "mw": "ˈprō-"
+                }
+            ]
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a specific plan or design {bc}{sx|scheme||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sls": [
+                                    "obsolete"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|idea||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "bs",
+                            {
+                                "sense": {
+                                    "sn": "3",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}a planned undertaking: such as"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a definitely formulated piece of research"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a large usually government-supported undertaking"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a task or problem engaged in usually by a group of students to supplement and apply classroom studies"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a usually public housing development consisting of houses or apartments built and arranged according to a single plan"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}plan{\/sc} {sc}design{\/sc} {sc}plot{\/sc} {sc}scheme{\/sc} {sc}project{\/sc} mean a method devised for making or doing something or achieving an end. {sc}plan{\/sc} always implies mental formulation and sometimes graphic representation. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}plans{\/it} for a house"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}design{\/sc} often suggests a particular pattern and some degree of achieved order or harmony. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}design{\/it} for a new dress"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}plot{\/sc} implies a laying out in clearly distinguished sections with attention to their relations and proportions. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "the {it}plot{\/it} of the play"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}scheme{\/sc} stresses calculation of the end in view and may apply to a plan motivated by craftiness and self-interest. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}scheme{\/it} to defraud the government"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}project{\/sc} often stresses imaginative scope and vision. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}project{\/it} to develop the waterfront"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English {it}projecte{\/it}, from Medieval Latin {it}projectum{\/it}, from Latin, neuter of {it}projectus{\/it}, past participle of {it}proicere{\/it} to throw forward, from {it}pro-{\/it} + {it}jacere{\/it} to throw {ma}{mat|jet|}{\/ma}"
+            ]
+        ],
+        "date": "15th century{ds||1||}",
+        "shortdef": [
+            "a specific plan or design : scheme",
+            "idea",
+            "a planned undertaking: such as"
+        ]
+    },
+    {
+        "meta": {
+            "id": "project:2",
+            "uuid": "4a28eb4e-0390-435b-9248-9759be1ab93c",
+            "sort": "167838000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "project",
+                "projectable",
+                "projected",
+                "projecting",
+                "projects"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "pro*ject",
+            "prs": [
+                {
+                    "mw": "prə-ˈjekt",
+                    "sound": {
+                        "audio": "projec02",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "pro*ject*ed"
+            },
+            {
+                "if": "pro*ject*ing"
+            },
+            {
+                "if": "pro*jects"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to devise in the mind {bc}{sx|design||}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to plan, figure, or estimate for the future"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to throw or cast forward {bc}{sx|thrust||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to put or set forth {bc}present for consideration"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to cause to jut out"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to cause (light or shadow) to fall into space or (an image) to fall on a surface"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to reproduce (something, such as a point, line, or area) on a surface by motion in a prescribed direction"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to display outwardly especially to an audience"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "8",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to attribute (one's own ideas, feelings, or characteristics) to other people or to objects "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a nation is an entity on which one can {wi}project{\/wi} many of the worst of one's instincts",
+                                                "aq": {
+                                                    "source": "{it}The Times Literary Supplement{\/it} (London)"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to jut out {bc}{sx|protrude||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to come across vividly {bc}give an impression"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to make oneself heard clearly"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "pro*ject*able",
+                "prs": [
+                    {
+                        "mw": "prə-ˈjek-tə-bəl",
+                        "sound": {
+                            "audio": "projec03",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "adjective"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Anglo-French {it}projecter{\/it}, from Latin {it}projectus{\/it}, past participle"
+            ]
+        ],
+        "date": "15th century{ds|t|1|a|}",
+        "shortdef": [
+            "to devise in the mind : design",
+            "to plan, figure, or estimate for the future",
+            "to throw or cast forward : thrust"
+        ]
+    },
+    {
+        "meta": {
+            "id": "project oneself",
+            "uuid": "cae0f147-99d9-4ca0-be98-337594d41e0f",
+            "sort": "3015383000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "project oneself"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "project oneself"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to act so as to make people see one in a certain way "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He tried to {it}project himself{\/it} as a strong leader."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to act so as to make people see one in a certain way"
+        ]
+    },
+    {
+        "meta": {
+            "id": "project one's voice",
+            "uuid": "88f4b795-fe3e-4510-8966-0958a592b280",
+            "sort": "3015384000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "project her voice",
+                "project his voice",
+                "project one's voice",
+                "project their voice"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "project one's voice"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to speak loudly and clearly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "You need to {it}project your voice{\/it} better if you want to be an actor."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to speak loudly and clearly"
+        ]
+    },
+    {
+        "meta": {
+            "id": "project onto",
+            "uuid": "0d08be54-e513-432f-912d-63f897e4497e",
+            "sort": "3015385000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "project onto",
+                "projected onto",
+                "projecting onto",
+                "projects onto"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "project onto"
+        },
+        "fl": "phrasal verb",
+        "ins": [
+            {
+                "if": "pro*ject*ed on*to"
+            },
+            {
+                "if": "pro*ject*ing on*to"
+            },
+            {
+                "if": "pro*jects on*to"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to believe or imagine that (one's ideas, feelings, etc.) are shared by (another person) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She {it}projected{\/it} her fears {it}onto{\/it} him."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to believe or imagine that (one's ideas, feelings, etc.) are shared by (another person)"
+        ]
+    },
+    {
+        "meta": {
+            "id": "housing project",
+            "uuid": "fd336d66-c3ab-42bf-ba62-f979d80604f1",
+            "sort": "080288800",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "housing project",
+                "housing projects"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "housing project"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a publicly supported and administered housing development planned usually for low-income families"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1900",
+        "shortdef": [
+            "a publicly supported and administered housing development planned usually for low-income families"
+        ]
+    },
+    {
+        "meta": {
+            "id": "Central Arizona Project:g",
+            "uuid": "13ca8465-4eb7-44e1-96ae-cec8e9e4f1fb",
+            "sort": "271578000",
+            "src": "collegiate",
+            "section": "geog",
+            "stems": [
+                "Central Arizona Project"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "Central Arizona Project"
+        },
+        "fl": "geographical name",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "system of structures conveying water 336 miles (541 kilometers) from the Colorado River to south central and southern Arizona"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "system of structures conveying water 336 miles (541 kilometers) from the Colorado River to south central and southern Arizona"
+        ]
+    },
+    {
+        "meta": {
+            "id": "counterproject",
+            "uuid": "1653cda5-01e6-4a8e-93df-e0b5d7ef00d2",
+            "sort": "035655033",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "counter-project",
+                "counter-projects",
+                "counterproject",
+                "counterprojects"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "coun*ter*proj*ect",
+            "prs": [
+                {
+                    "mw": "ˌkau̇n-tər-ˈprä-ˌjekt",
+                    "sound": {
+                        "audio": "counterproject_1",
+                        "ref": "owl",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "-jikt"
+                },
+                {
+                    "l": "also",
+                    "mw": "-ˈprō-"
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or",
+                "va": "counter-project"
+            }
+        ],
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "counterprojects"
+            },
+            {
+                "il": "or",
+                "if": "counter-projects"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a {d_link|counterproposal|counterproposal} especially for a plan, measure, or treaty "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The two nations resumed their long and wearisome boundary talks, swapping projects and {wi}counterprojects{\/wi} for survey commissions while laboriously debating the locations of rivers, lakes, and highlands.",
+                                                "aq": {
+                                                    "auth": "Howard Jones and Donald Allen Rakestraw"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "circa 1745",
+        "shortdef": [
+            "a counterproposal especially for a plan, measure, or treaty"
+        ]
+    },
+    {
+        "meta": {
+            "id": "subproject",
+            "uuid": "b669b50b-067a-444e-ab90-c4e5e004e0e5",
+            "sort": "194903933",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "sub-project",
+                "sub-projects",
+                "subproject",
+                "subprojects"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "sub*proj*ect",
+            "prs": [
+                {
+                    "mw": "ˌsəb-ˈprä-ˌjekt",
+                    "sound": {
+                        "audio": "subproject_1",
+                        "ref": "owl",
+                        "stat": "1"
+                    }
+                },
+                {
+                    "mw": "-jikt"
+                },
+                {
+                    "l": "also",
+                    "mw": "-ˈprō-"
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or",
+                "va": "sub-proj*ect"
+            }
+        ],
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "sub*proj*ects"
+            },
+            {
+                "il": "or",
+                "if": "sub-proj*ects"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a {d_link|project|project:1} that is part of a larger project "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "… divided the … project into discrete {wi}subprojects{\/wi} to facilitate delivery of specific work scope in shorter timeframes …",
+                                                "aq": {
+                                                    "auth": "Francie Israeli"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1877",
+        "shortdef": [
+            "a project that is part of a larger project"
+        ]
+    }
+]

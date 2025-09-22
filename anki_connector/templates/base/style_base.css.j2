@@ -1,0 +1,601 @@
+[% block style %]
+:root {
+    --card-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-color: #ffffff;
+    --heading-color: #ffffff;
+    --body-color: #f3f4f6;
+    --section-bg: rgba(255,255,255,0.1);
+    --definition-item-bg: rgba(0,0,0,0.15);
+    --us-bg: rgba(59, 130, 246, 0.25);
+    --us-border: rgba(59, 130, 246, 0.5);
+    --uk-bg: rgba(16, 185, 129, 0.25);
+    --uk-border: rgba(16, 185, 129, 0.5);
+    --label-color: rgba(255, 255, 255, 0.9);
+    --pos-bg: rgba(59, 130, 246, 0.5);
+    --pos-color: #ffffff;
+    --accent-short: #10b981;
+    --accent-long: #8b5cf6;
+}
+/* Base card styling (template_a look) */
+/* ========================================
+   MAIN CARD CONTAINER
+   Core styling for the entire card
+   ======================================== */
+.card { /* Override Anki's default center alignment */
+    text-align: left;
+}
+.card-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    max-width: 600px;           /* Maximum card width - adjust for wider/narrower cards */
+    margin: 0 auto;             /* Center the card */
+    padding: 12px;              /* Inner spacing - increase for more breathing room */
+    background: var(--card-bg);  /* Main gradient background */
+    border-radius: 12px;        /* Rounded corners - increase for more rounded appearance */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);  /* Card shadow depth */
+    color: var(--text-color);               /* Default text color */
+}
+
+/* ========================================
+   WORD SECTION
+   Contains the main word, phonetics, and audio
+   ======================================== */
+.word-section {
+    text-align: center;         /* Center-align word and phonetics */
+    margin-bottom: 15px;        /* Space below word section */
+    padding: 12px;              /* Inner padding */
+    background: var(--section-bg);  /* Semi-transparent overlay */
+    border-radius: 8px;         /* Rounded corners for section */
+    backdrop-filter: blur(10px); /* Blur effect behind section */
+}
+
+.word {
+    font-size: 2.2em;           /* Main word size - adjust for bigger/smaller text */
+    font-weight: 700;           /* Font weight - 400=normal, 700=bold, 900=black */
+    margin: 0 0 10px 0;         /* Margins around word */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);  /* Text shadow for depth */
+    color: var(--text-color);                /* Word color */
+}
+
+/* ========================================
+   PHONETICS SECTION
+   Pronunciation display area
+   ======================================== */
+.phonetics-compact {
+    margin: 10px 0;             /* Spacing around phonetics */
+    display: flex;              /* Flexbox layout */
+    flex-direction: row;        /* Place phonetics side by side */
+    gap: 8px;                   /* Space between US and UK */
+    align-items: center;        /* Center-align items */
+    justify-content: center;    /* Center in container */
+    flex-wrap: wrap;            /* Allow wrap on small screens */
+}
+
+.phonetic-item {
+    display: flex;              /* Flexbox for horizontal alignment */
+    align-items: center;        /* Vertically center items */
+    gap: 4px;                   /* Space between label, text, and audio button */
+    padding: 4px 8px;           /* Inner padding */
+    border-radius: 12px;        /* Rounded corners */
+    backdrop-filter: blur(5px); /* Background blur effect */
+    font-size: 0.95em;          /* Overall phonetic text size */
+    cursor: pointer;            /* Clickable area for audio */
+    /* Button reset for semantic <button> usage */
+    border: 0;
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+}
+
+.phonetic-item:focus-visible {
+    outline: 2px solid var(--heading-color);
+    outline-offset: 2px;
+}
+
+/* US phonetics styling */
+.phonetic-item.us {
+    background: var(--us-bg);   /* Blue background for US */
+    border: 1px solid var(--us-border);  /* Blue border */
+}
+
+/* UK phonetics styling */
+.phonetic-item.uk {
+    background: var(--uk-bg);   /* Green background for UK */
+    border: 1px solid var(--uk-border);  /* Green border */
+}
+
+.phonetic-label {
+    font-weight: 600;           /* Bold labels */
+    font-size: 0.85em;          /* Label size */
+    color: var(--label-color);  /* Slightly transparent white */
+    min-width: 24px;            /* Minimum width for alignment */
+}
+
+.phonetic-text {
+    font-family: 'Courier New', monospace;  /* Monospace font for phonetics */
+    font-size: 1em;             /* Phonetic text size */
+    font-weight: 500;           /* Medium font weight */
+    color: var(--text-color);               /* Text color */
+    margin-right: 2px;          /* Small space before audio button */
+}
+
+/* ========================================
+   AUDIO CONTROLS
+   Speaker buttons for pronunciation
+   ======================================== */
+.audio-icon {
+    background: none;           /* No background */
+    border: none;               /* No border */
+    color: var(--text-color);                /* Icon color */
+    padding: 2px 4px;           /* Minimal padding */
+    cursor: pointer;            /* Pointer cursor */
+    opacity: 0.9;               /* Slight transparency */
+}
+
+.audio-icon:hover {
+    opacity: 1.0;               /* Full opacity on hover */
+}
+
+/* ========================================
+   DEFINITIONS SECTION
+   List of meanings and usage examples
+   ======================================== */
+/* Vocabulary definitions section */
+.vocab-definitions-section {
+    background: var(--section-bg);  /* Section background */
+    border-radius: 8px;         /* Rounded corners */
+    padding: 10px;              /* Inner padding */
+    margin: 10px 0;             /* Vertical margins */
+    backdrop-filter: blur(10px); /* Background blur */
+}
+
+.vocab-definitions-section h3 {
+    margin: 0 0 8px 0;          /* Heading margins */
+    color: var(--heading-color);                /* Heading color */
+    font-size: 1em;             /* Heading size */
+}
+
+.vocab-definition-item {
+    background: var(--definition-item-bg); /* Definition item background */
+    border-radius: 6px;         /* Rounded corners */
+    padding: 8px 10px;          /* Inner padding */
+    margin: 8px 0;              /* Spacing between definition items */
+}
+
+.vocab-part-of-speech {
+    display: inline-block;      /* Inline block for tag-like appearance */
+    background: var(--pos-bg);  /* Blue background */
+    color: var(--pos-color);                /* Text color */
+    padding: 2px 6px;           /* Inner padding */
+    border-radius: 10px;        /* Rounded corners */
+    font-size: 0.8em;           /* Smaller text size */
+    margin-right: 6px;          /* Space after tag */
+}
+
+.vocab-definition {
+    font-size: 0.95em;          /* Definition text size */
+    line-height: 1.4;           /* Line spacing for readability */
+    color: var(--body-color);             /* Definition text color */
+}
+/* Inline metadata elements inserted into definitions */
+.synonyms,
+.antonyms {
+    font-size: 0.9em;           /* slightly smaller than definition */
+    /* Color is theme-specific to ensure contrast */
+}
+/* .example color is theme-specific as well */
+
+/* ========================================
+   WORD FORMS SECTION
+   Inflections and variations
+   ======================================== */
+.forms-section {
+    background: var(--section-bg);  /* Section background */
+    border-radius: 8px;         /* Rounded corners */
+    padding: 10px;              /* Inner padding */
+    margin: 10px 0;             /* Vertical margins */
+    backdrop-filter: blur(10px); /* Background blur */
+}
+
+.forms-section h3 {
+    margin: 0 0 6px 0;          /* Heading margins */
+    color: var(--heading-color);                /* Heading color */
+    font-size: 1em;             /* Heading size */
+}
+
+.word-forms {
+    background: var(--section-bg);  /* Forms background */
+    padding: 6px 10px;          /* Inner padding */
+    border-radius: 6px;         /* Rounded corners */
+    font-family: 'Courier New', monospace;  /* Monospace font */
+    color: var(--body-color);             /* Text color */
+    margin: 0;                  /* No margins */
+    font-size: 0.9em;           /* Text size */
+}
+
+/* ========================================
+   EXPLANATION SECTIONS
+   Short and detailed explanations
+   ======================================== */
+.explanation-section {
+    background: var(--section-bg);  /* Section background */
+    border-radius: 8px;         /* Rounded corners */
+    padding: 10px;              /* Inner padding */
+    margin: 10px 0;             /* Vertical margins */
+    backdrop-filter: blur(10px); /* Background blur */
+}
+
+.explanation-section h3 {
+    margin: 0 0 8px 0;          /* Heading margins */
+    color: var(--heading-color);                /* Heading color */
+    font-size: 1em;             /* Heading size */
+}
+
+.explanation {
+    line-height: 1.4;           /* Line spacing */
+    font-size: 0.9em;           /* Text size */
+    color: var(--body-color);             /* Text color */
+    margin: 0;                  /* No margins */
+}
+
+/* ========================================
+   MERRIAM‑WEBSTER SECTION
+   Styled to blend with explanation/definition visuals
+   ======================================== */
+.mw-section { /* wrapper uses .explanation-section container; fine-tune spacing if needed */ }
+
+.mw-block {
+    background: var(--section-bg);
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 10px 0;
+    backdrop-filter: blur(8px);
+}
+
+.mw-block h4 {
+    margin: 4px 0 6px 0;
+    font-size: 0.95em;
+    color: var(--heading-color);
+}
+
+.mw-block-entry {
+    background: var(--definition-item-bg);
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border-left: 3px solid var(--accent-long);
+}
+
+.mw-hw { /* headword line */
+    margin: 2px 0 6px 0;
+    font-size: 1.0em;
+}
+.mw-hw strong {
+    color: var(--heading-color);
+}
+
+.mw-stems, .mw-uros, .mw-et, .mw-date {
+    margin: 2px 0;
+    font-size: 0.9em;
+}
+
+.mw-block ul {
+    margin: 4px 0 8px 18px;
+    padding: 0;
+}
+
+.mw-examples ul { margin: 4px 0 6px 18px; }
+.mw-examples li { margin: 2px 0; }
+.mw-vis { margin: 2px 0 4px 18px; font-style: italic; color: var(--body-color); opacity: 0.9; }
+.mw-sls { color: var(--body-color); opacity: 0.75; }
+
+.mw-syn, .mw-ant {
+    font-size: 0.9em;
+    background: var(--definition-item-bg);
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin: 6px 0;
+}
+
+/* ========================================
+   MW STRUCTURED CONTENT STYLES
+   New structured MW field display
+   ======================================== */
+.mw-section {
+    background: var(--section-bg);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 15px 0;
+    backdrop-filter: blur(10px);
+    border-left: 4px solid #f59e0b;
+}
+
+.mw-section h3 {
+    color: var(--heading-color);
+    margin: 0 0 12px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.mw-basic-info {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.mw-headword {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+    color: #f59e0b;
+}
+
+.mw-pos {
+    font-style: italic;
+    color: var(--label-color);
+    opacity: 0.9;
+}
+
+.mw-definitions,
+.mw-learner-definitions,
+.mw-examples,
+.mw-synonyms,
+.mw-antonyms,
+.mw-inflections,
+.mw-stems,
+.mw-etymology,
+.mw-first-use {
+    margin: 8px 0;
+    padding: 6px 0;
+}
+
+.mw-definitions h5,
+.mw-learner-definitions h5,
+.mw-examples h5,
+.mw-synonyms h5,
+.mw-antonyms h5,
+.mw-inflections h5,
+.mw-stems h5,
+.mw-etymology h5,
+.mw-first-use h5 {
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: var(--heading-color);
+}
+
+.mw-definition-text,
+.mw-learner-text,
+.mw-examples-text,
+.mw-etymology-text,
+.mw-first-use-text {
+    background: var(--definition-item-bg);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+/* MW definitions section styling */
+.mw-definitions-section {
+    margin: 12px 0;
+}
+
+.mw-definitions-section h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: var(--heading-color);
+}
+
+/* MW structured entries styling */
+.mw-structured-entries {
+    margin: 12px 0;
+}
+
+.mw-structured-entries h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: var(--heading-color);
+}
+
+.mw-entries-content {
+    background: var(--section-bg);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.mw-entries-content hr {
+    border: none;
+    border-top: 2px solid var(--accent-primary);
+    margin: 16px 0;
+    opacity: 0.3;
+}
+
+.mw-entries-content strong {
+    color: var(--heading-color);
+    font-size: 1.05em;
+}
+
+.mw-entries-content em {
+    color: var(--accent-primary);
+    font-weight: 500;
+}
+
+.mw-stems-compact {
+    font-size: 0.85em;
+    color: var(--body-color);
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+/* Individual MW definition items */
+.mw-definition-item {
+    background: var(--definition-item-bg);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.95em;
+    line-height: 1.4;
+    border-left: 3px solid #3b82f6;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.mw-definition-item:hover {
+    background: var(--definition-item-hover-bg, rgba(59, 130, 246, 0.05));
+    transform: translateX(2px);
+    transition: all 0.2s ease;
+}
+
+.mw-definition {
+    display: block;
+    white-space: pre-line; /* Preserve line breaks for sub-definitions */
+}
+
+/* MW Structured Entry Items (new individual entry styling) */
+.mw-structured-entry-item {
+    background: var(--definition-item-bg);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-left: 4px solid #8b5cf6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mw-structured-entry-item:hover {
+    background: var(--definition-item-hover-bg, rgba(139, 92, 246, 0.05));
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.mw-entry-content {
+    display: block;
+    line-height: 1.5;
+}
+
+.mw-sub-definition {
+    display: inline-flex;
+    gap: 0.35em;
+    margin-left: 1em;
+    margin-top: 2px;
+    align-items: flex-start;
+}
+
+.mw-sub-marker {
+    font-weight: normal;
+}
+
+.mw-sub-text {
+    display: inline;
+}
+
+.mw-verb-divider {
+    display: block;
+    font-weight: 600;
+    font-style: italic;
+    margin: 16px 0 -16px 0;
+    padding: 4px 8px;
+    background: rgba(139, 92, 246, 0.2);
+    border-left: 3px solid #8b5cf6;
+    border-radius: 4px;
+    color: var(--heading-color);
+    font-size: 0.9em;
+}
+
+.mw-structured-entries-section {
+    margin-bottom: 15px;
+}
+
+.mw-structured-entries-section h3 {
+    margin-bottom: 12px;
+}
+
+.mw-synonym-list,
+.mw-antonym-list,
+.mw-inflection-list,
+.mw-stems-list {
+    background: var(--definition-item-bg);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 0.9em;
+}
+
+.mw-synonyms {
+    border-left: 3px solid #10b981;
+}
+
+.mw-antonyms {
+    border-left: 3px solid #ef4444;
+}
+
+/* Accent colors for different explanation types */
+.explanation-section.short {
+    border-left: 4px solid var(--accent-short);  /* Green accent for short explanations */
+}
+
+.explanation-section.long {
+    border-left: 4px solid var(--accent-long);  /* Purple accent for long explanations */
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   Mobile and tablet optimizations
+   ======================================== */
+@media (max-width: 480px) {
+    .card-container {
+        padding: 10px;          /* Reduced padding on mobile */
+        margin: 8px;            /* Reduced margins */
+    }
+    
+    .word {
+        font-size: 1.8em;       /* Smaller word size on mobile */
+    }
+    
+    .word-section {
+        padding: 8px;           /* Reduced section padding */
+        margin-bottom: 10px;    /* Reduced bottom margin */
+    }
+    
+    .phonetics-compact { gap: 6px; }
+    .phonetic-item {
+        padding: 3px 6px;       /* Smaller phonetic item padding */
+        gap: 3px;               /* Tighter internal spacing */
+        font-size: 0.9em;       /* Smaller text */
+    }
+
+    .phonetic-text {
+        font-size: 0.95em;      /* Smaller phonetic text */
+    }
+
+    .audio-icon {
+        font-size: 0.9em;       /* Smaller audio icons */
+    }
+    
+    /* Tighter spacing for all sections on mobile */
+    .vocab-definitions-section,
+    .forms-section,
+    .explanation-section {
+        padding: 8px;           /* Reduced padding */
+        margin: 8px 0;          /* Reduced margins */
+    }
+    
+    .vocab-definition-item {
+        padding: 6px 8px;       /* Smaller definition item padding */
+        margin: 6px 0;          /* Reduced spacing between definitions */
+    }
+    
+    .vocab-part-of-speech {
+        font-size: 0.7em;       /* Smaller part-of-speech tags */
+        padding: 1px 4px;       /* Tighter tag padding */
+        margin-right: 4px;      /* Reduced margin */
+    }
+    
+    .vocab-definition {
+        font-size: 0.9em;       /* Smaller definition text */
+    }
+}
+[% endblock %]

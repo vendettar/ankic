@@ -1,0 +1,20 @@
+[% block back %]
+<div class="card-container">
+  <div class="word-section">
+    <h1 class="word">{{Word}}</h1>
+    [% include 'partials/phonetics.html.j2' %]
+  </div>
+
+  [% include 'partials/vocab_definitions.html.j2' %]
+
+  [% include 'partials/word_forms.html.j2' %]
+
+  [% include 'partials/vocab_explanations.html.j2' %]
+
+  [% include 'partials/mw_structured_content.html.j2' %]
+</div>
+[% endblock %]
+
+[% block scripts %]
+<script>[% include 'audio-controls.js' %]</script>
+[% endblock %]

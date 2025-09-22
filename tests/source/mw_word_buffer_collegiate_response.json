@@ -1,0 +1,552 @@
+[
+    {
+        "meta": {
+            "id": "buffer:1",
+            "uuid": "b4413e75-c6a2-45b4-9214-82325fa44544",
+            "sort": "020467400",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer",
+                "buffered",
+                "buffers"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "buff*er",
+            "prs": [
+                {
+                    "mw": "ˈbə-fər",
+                    "sound": {
+                        "audio": "buffer01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "buff*ers"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any of various devices or pieces of material for reducing shock or damage due to contact"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a means or device used as a cushion against the shock of fluctuations in business or financial activity"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "bs",
+                            {
+                                "sense": {
+                                    "sn": "3",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}something that serves as a protective barrier: such as"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|buffer state||}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person who shields another especially from annoying routine matters"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|mediator||1}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a substance capable in solution of neutralizing both acids and bases and thereby maintaining the original acidity or basicity of the solution"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}a solution containing such a substance"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a section of computer memory for temporarily storing information"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}one that accepts information at one rate and delivers it at another "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "The streaming video feed continues to download into the {wi}buffer{\/wi} while the computer starts playing the movie."
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "buff*ered",
+                "prs": [
+                    {
+                        "mw": "ˈbə-fərd",
+                        "sound": {
+                            "audio": "buffer02",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "adjective"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{it}buff{\/it}, verb, to react like a soft body when struck"
+            ]
+        ],
+        "date": "1835{ds||1||}",
+        "shortdef": [
+            "any of various devices or pieces of material for reducing shock or damage due to contact",
+            "a means or device used as a cushion against the shock of fluctuations in business or financial activity",
+            "something that serves as a protective barrier: such as"
+        ]
+    },
+    {
+        "meta": {
+            "id": "buffer:2",
+            "uuid": "3f6e3897-fb30-4fdc-8462-874b3b13975a",
+            "sort": "020467500",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer",
+                "buffered",
+                "buffering",
+                "buffers"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "buffer"
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "buff*ered"
+            },
+            {
+                "if": "buff*er*ing",
+                "prs": [
+                    {
+                        "mw": "ˈbə-f(ə-)riŋ",
+                        "sound": {
+                            "audio": "buffer03",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ]
+            },
+            {
+                "if": "buffers"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to lessen the shock of {bc}{sx|cushion||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to treat (something, such as an acid solution) with a buffer"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}to prepare (aspirin) with an antacid"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to collect (data) in a buffer"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1845{ds||1||}",
+        "shortdef": [
+            "to lessen the shock of : cushion",
+            "to treat (something, such as an acid solution) with a buffer; also : to prepare (aspirin) with an antacid",
+            "to collect (data) in a buffer"
+        ]
+    },
+    {
+        "meta": {
+            "id": "buffer:3",
+            "uuid": "35068c8c-19e4-498c-be73-4e075d920d09",
+            "sort": "020467600",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer",
+                "buffers"
+            ],
+            "offensive": false
+        },
+        "hom": 3,
+        "hwi": {
+            "hw": "buffer"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "buffers"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}someone or something that {d_link|buffs|buff:3}"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}a machine that cleans and polishes "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "a floor {wi}buffer{\/wi}"
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1854",
+        "shortdef": [
+            "someone or something that buffs; especially : a machine that cleans and polishes"
+        ]
+    },
+    {
+        "meta": {
+            "id": "buffer:4",
+            "uuid": "4bf8c5ab-b93b-4b09-9f61-80d06822e938",
+            "sort": "020467650",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer",
+                "buffers"
+            ],
+            "offensive": false
+        },
+        "hom": 4,
+        "hwi": {
+            "hw": "buffer"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "buffers"
+            }
+        ],
+        "def": [
+            {
+                "sls": [
+                    "British slang"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|fellow||}, {sx|man||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a jolly {it}buffer{\/it}"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an old man "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "And now that I'm an old crock and he's an old {wi}buffer{\/wi}, we have our daily skirmishes—he wants the window closed, I want it open.",
+                                                    "aq": {
+                                                        "auth": "Fiona Cooper"
+                                                    }
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "origin unknown"
+            ]
+        ],
+        "date": "1749",
+        "shortdef": [
+            "fellow, man; especially : an old man"
+        ]
+    },
+    {
+        "meta": {
+            "id": "buffer state",
+            "uuid": "ca4f1e11-07b2-4866-84be-23a43c3e8dee",
+            "sort": "020467700",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer state",
+                "buffer states"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "buffer state"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a usually neutral state lying between two larger potentially rival powers"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1883",
+        "shortdef": [
+            "a usually neutral state lying between two larger potentially rival powers"
+        ]
+    },
+    {
+        "meta": {
+            "id": "buffer zone",
+            "uuid": "5b1b93e4-3502-4daa-87d3-ec4fb3254e23",
+            "sort": "020467800",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "buffer zone"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "buffer zone"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a neutral area separating conflicting forces"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "broadly",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an area designed to separate"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1908",
+        "shortdef": [
+            "a neutral area separating conflicting forces; broadly : an area designed to separate"
+        ]
+    }
+]

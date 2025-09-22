@@ -1,0 +1,1123 @@
+[
+    {
+        "meta": {
+            "id": "design:1",
+            "uuid": "0a0b1373-caef-4754-b587-063ffae58d1f",
+            "sort": "041449000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "design",
+                "designed",
+                "designedly",
+                "designing",
+                "designs"
+            ],
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "de*sign",
+            "prs": [
+                {
+                    "mw": "di-ˈzīn",
+                    "sound": {
+                        "audio": "design01",
+                        "ref": "c",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "de*signed"
+            },
+            {
+                "if": "de*sign*ing"
+            },
+            {
+                "if": "de*signs"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to create, fashion, execute, or construct according to plan {bc}{sx|devise||}, {sx|contrive||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}design{\/wi} a system for tracking inventory"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to conceive and plan out in the mind "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "he {wi}designed{\/wi} the perfect crime"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to have as a purpose {bc}{sx|intend||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "she {wi}designed{\/wi} to excel in her studies"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to devise for a specific function or end "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a book {wi}designed{\/wi} primarily as a college textbook"
+                                            },
+                                            {
+                                                "t": "a suitcase {wi}designed{\/wi} to hold a laptop computer"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "sls": [
+                                    "archaic"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to indicate with a distinctive mark, sign, or name"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to make a drawing, pattern, or sketch of "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "… a curious woman whose dresses always looked as if they had been {wi}designed{\/wi} in a rage …",
+                                                "aq": {
+                                                    "auth": "Oscar Wilde"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to draw the plans for "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{wi}design{\/wi} a building"
+                                            },
+                                            {
+                                                "t": "{wi}designing{\/wi} a new bike"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "vd": "intransitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to conceive or execute a plan"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to draw, lay out, or prepare a {d_link|design|design:2} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "was trained to {wi}design{\/wi} for homes and offices"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "de*sign*ed*ly",
+                "prs": [
+                    {
+                        "mw": "di-ˈzī-nəd-lē",
+                        "sound": {
+                            "audio": "design02",
+                            "ref": "c",
+                            "stat": "1"
+                        }
+                    }
+                ],
+                "fl": "adverb"
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "Middle English, to outline, indicate, mean, from Anglo-French & Medieval Latin; Anglo-French {it}designer{\/it} to designate, from Medieval Latin {it}designare{\/it}, from Latin, to mark out, from {it}de-{\/it} + {it}signare{\/it} to mark {ma}{mat|sign|}{\/ma}"
+            ]
+        ],
+        "date": "14th century{ds|t|3||}",
+        "shortdef": [
+            "to create, fashion, execute, or construct according to plan : devise, contrive",
+            "to conceive and plan out in the mind",
+            "to have as a purpose : intend"
+        ]
+    },
+    {
+        "meta": {
+            "id": "design:2",
+            "uuid": "7bf02240-4e8c-41f8-8b14-e5d6d0492fd3",
+            "sort": "041450000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "design",
+                "designs"
+            ],
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "design"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a particular purpose or intention held in view by an individual or group "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He has ambitious {wi}designs{\/wi} for his son."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}deliberate {d_link|purposive|purposive} planning "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "more by accident than {wi}design{\/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a mental project or scheme in which means to an end are laid down "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "was never part of my {wi}design{\/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a deliberate undercover project or scheme {bc}{sx|plot||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a declaration of a {wi}design{\/wi} upon his life",
+                                                "aq": {
+                                                    "auth": "John Locke"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "ins": [
+                                    {
+                                        "if": "designs",
+                                        "spl": "plural"
+                                    }
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}aggressive or evil intent "
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used with {it}on{\/it} or {it}against{\/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "he has {wi}designs{\/wi} on the money"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a preliminary sketch or outline showing the main features of something to be executed "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the {wi}design{\/wi} for the new stadium"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an underlying scheme that governs functioning, developing, or unfolding {bc}{sx|pattern||}, {sx|motif||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the general {wi}design{\/wi} of the epic"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a plan or protocol for carrying out or accomplishing something (such as a scientific experiment)"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}the process of preparing this"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the arrangement of elements or details in a product or work of art "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "… his sense of structure, both in the general {wi}design{\/wi} of {it}Paradise Lost{\/it} and {it}Samson{\/it}, and in his syntax …",
+                                                "aq": {
+                                                    "auth": "T. S. Eliot"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a decorative pattern "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a floral {wi}design{\/wi}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "8",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the creative art of executing {d_link|aesthetic|aesthetic:1} or functional {a_link|designs} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "studied {wi}design{\/wi} in college"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "syns": [
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}intention{\/sc} {sc}intent{\/sc} {sc}purpose{\/sc} {sc}design{\/sc} {sc}aim{\/sc} {sc}end{\/sc} {sc}object{\/sc} {sc}objective{\/sc} {sc}goal{\/sc} mean what one intends to accomplish or attain. {sc}intention{\/sc} implies little more than what one has in mind to do or bring about. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "announced his {it}intention{\/it} to marry"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}intent{\/sc} suggests clearer formulation or greater deliberateness. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "the clear {it}intent{\/it} of the statute"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}purpose{\/sc} suggests a more settled determination. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "being successful was her {it}purpose{\/it} in life"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}design{\/sc} implies a more carefully calculated plan. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "the order of events came by accident, not {it}design{\/it}"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}aim{\/sc} adds to these implications of effort directed toward attaining or accomplishing. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "her {it}aim{\/it} was to raise film to an art form"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}end{\/sc} stresses the intended effect of action often in distinction or contrast to the action or means as such. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "willing to use any means to achieve his {it}end{\/it}"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}object{\/sc} may equal {sc}end{\/sc} but more often applies to a more individually determined wish or need. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "his constant {it}object{\/it} was the achievement of pleasure"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}objective{\/sc} implies something tangible and immediately attainable. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "their {it}objective{\/it} is to seize the oil fields"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}goal{\/sc} suggests something attained only by prolonged effort and hardship. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "worked years to reach her {it}goals{\/it}"
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "pl": "synonyms",
+                "pt": [
+                    [
+                        "text",
+                        "{sc}plan{\/sc} {sc}design{\/sc} {sc}plot{\/sc} {sc}scheme{\/sc} {sc}project{\/sc} mean a method devised for making or doing something or achieving an end. {sc}plan{\/sc} always implies mental formulation and sometimes graphic representation. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "{it}plans{\/it} for a house"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}design{\/sc} often suggests a particular pattern and some degree of achieved order or harmony. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}design{\/it} for a new dress"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}plot{\/sc} implies a laying out in clearly distinguished sections with attention to their relations and proportions. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "the {it}plot{\/it} of the play"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}scheme{\/sc} stresses calculation of the end in view and may apply to a plan motivated by craftiness and self-interest. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}scheme{\/it} to defraud the government"
+                            }
+                        ]
+                    ],
+                    [
+                        "text",
+                        " {sc}project{\/sc} often stresses imaginative scope and vision. "
+                    ],
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}project{\/it} to develop the waterfront"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "et": [
+            [
+                "text",
+                "{dx_ety}see {dxt|design:1||}{\/dx_ety}"
+            ]
+        ],
+        "date": "1565{ds||1|a|}",
+        "shortdef": [
+            "a particular purpose or intention held in view by an individual or group",
+            "deliberate purposive planning",
+            "a mental project or scheme in which means to an end are laid down"
+        ]
+    },
+    {
+        "meta": {
+            "id": "graphic design",
+            "uuid": "d2528df5-848d-4d8e-aaca-e397f889e638",
+            "sort": "072187000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "graphic design",
+                "graphic designer"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "graphic design"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the art or profession of using design elements (such as typography and images) to convey information or create an effect"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "also",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}a product of this art"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "graphic designer",
+                "fl": "noun"
+            }
+        ],
+        "date": "1935",
+        "shortdef": [
+            "the art or profession of using design elements (such as typography and images) to convey information or create an effect; also : a product of this art"
+        ]
+    },
+    {
+        "meta": {
+            "id": "intelligent design",
+            "uuid": "405fdbbc-e704-4360-ac81-a6ca04a14d97",
+            "sort": "092034000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "intelligent design"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "intelligent design"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the theory that matter, the various forms of life, and the world were created by a designing intelligence"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1990",
+        "shortdef": [
+            "the theory that matter, the various forms of life, and the world were created by a designing intelligence"
+        ]
+    },
+    {
+        "meta": {
+            "id": "interior design",
+            "uuid": "75e4f372-d506-4e06-8f6d-c6d0a597c0d3",
+            "sort": "092226000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "interior design",
+                "interior designs"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "interior design"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the art or practice of planning and supervising the design and execution of architectural interiors and their furnishings"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1927",
+        "shortdef": [
+            "the art or practice of planning and supervising the design and execution of architectural interiors and their furnishings"
+        ]
+    },
+    {
+        "meta": {
+            "id": "by design",
+            "uuid": "1dc26f0b-036d-4c50-b239-927788ca9132",
+            "sort": "3002627000",
+            "src": "ld",
+            "section": "idioms",
+            "stems": [
+                "by design"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "by design"
+        },
+        "fl": "idiom",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}according to plan {bc}by intention "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The motor is loud {it}by design{\/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "according to plan : by intention"
+        ]
+    },
+    {
+        "meta": {
+            "id": "codesign",
+            "uuid": "504c69f6-617f-426c-a026-eeaf1cb19c26",
+            "sort": "035411350",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "co-design",
+                "co-designed",
+                "co-designer",
+                "co-designers",
+                "co-designing",
+                "co-designs",
+                "codesign",
+                "codesigned",
+                "codesigner",
+                "codesigners",
+                "codesigning",
+                "codesigns"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "co*de*sign",
+            "prs": [
+                {
+                    "mw": "ˌkō-di-ˈzīn",
+                    "sound": {
+                        "audio": "codesign_1",
+                        "ref": "owl",
+                        "stat": "1"
+                    }
+                }
+            ]
+        },
+        "vrs": [
+            {
+                "vl": "or",
+                "va": "co-de*sign"
+            }
+        ],
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "co*de*signed"
+            },
+            {
+                "il": "or",
+                "if": "co-de*signed"
+            },
+            {
+                "if": "co*de*sign*ing"
+            },
+            {
+                "il": "or",
+                "if": "co-de*sign*ing"
+            }
+        ],
+        "def": [
+            {
+                "vd": "transitive verb",
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to {d_link|design|design:1} (something) by working with one or more others {bc}to design (something) jointly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "… leading Turing and engineer Tommy Flowers to {wi}codesign{\/wi} what many believe to be the world's first electronic, digital, programmable computer.",
+                                                "aq": {
+                                                    "auth": "Jerome M. O'Connor"
+                                                }
+                                            },
+                                            {
+                                                "t": "To help spur the development of Mods further forward, Motorola … will continue to design Mods itself, but it'll also {wi}co-design{\/wi} Mods with partners …",
+                                                "aq": {
+                                                    "auth": "Kyle Wiggers"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "co*de*sign*er",
+                "vrs": [
+                    {
+                        "vl": "or",
+                        "va": "co-de*sign*er"
+                    }
+                ],
+                "fl": "noun",
+                "ins": [
+                    {
+                        "il": "plural",
+                        "if": "co*de*sign*ers"
+                    },
+                    {
+                        "il": "or",
+                        "if": "co-de*sign*ers"
+                    }
+                ],
+                "utxt": [
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "In my own work, as {wi}codesigner{\/wi} of three microprocessor architectures …",
+                                "aq": {
+                                    "auth": "Bill Joy"
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1943",
+        "shortdef": [
+            "to design (something) by working with one or more others : to design (something) jointly"
+        ]
+    },
+    {
+        "meta": {
+            "id": "randomized block",
+            "uuid": "3d453de6-75f4-4223-9868-0071525f37f9",
+            "sort": "180416000",
+            "src": "collegiate",
+            "section": "alpha",
+            "stems": [
+                "randomized block",
+                "randomized block design",
+                "randomized blocks"
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "randomized block"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an experimental design (as in horticulture) in which different treatments are distributed in random order in a block or plot "
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also",
+                                            "cats": [
+                                                {
+                                                    "cat": "randomized block design"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "date": "1926",
+        "shortdef": [
+            "an experimental design (as in horticulture) in which different treatments are distributed in random order in a block or plot —called also randomized block design"
+        ]
+    }
+]
