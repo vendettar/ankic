@@ -1,0 +1,81 @@
+[project]
+name = "anki-vocabulary-importer"
+version = "1.0.0"
+description = "Modern vocabulary importer for Anki with audio support"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.5",
+    "beautifulsoup4>=4.12.3",
+    "pydantic>=2.11.9",
+    "pydantic-settings>=2.10.1",
+    "jinja2>=3.1.6",
+]
+
+[project.scripts]
+ankic = "anki_connector.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.2",
+    "black>=25.9.0",
+    "ruff>=0.13.1",
+    "mypy>=1.18.2",
+]
+
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[tool.setuptools.packages.find]
+
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.hatch.build]
+exclude = [
+    "/tests",
+    "/audio_files",
+    "/.cache",
+    "/.claude",
+    "/.mypy_cache",
+    "/.pytest_cache",
+    "/.ruff_cache",
+    "/.venv",
+    "/build",
+    "/dist",
+    "/Makefile",
+    "/uv.lock",
+    "/.gitignore",
+    "/anki_card_templates",
+    "/requirements.txt",
+    "/pytest.ini",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["anki_connector"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"anki_connector/templates/themes" = "anki_connector/templates/themes"
+"anki_connector/templates/base" = "anki_connector/templates/base"
+"anki_connector/templates/assets" = "anki_connector/templates/assets"

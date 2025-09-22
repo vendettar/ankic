@@ -1,0 +1,11 @@
+<div class="definitions-section">
+  <h3>📖 Definitions</h3>
+  [% for i in range(1, 26) %]
+  {{#vocab_Definition[[ i ]]}}
+  <div class="definition-item">
+    {{#vocab_Part[[ i ]]}}<span class="part-of-speech">{{vocab_Part[[ i ]]}}</span>{{/vocab_Part[[ i ]]}}
+    <span class="definition">{{vocab_Definition[[ i ]]}}</span>
+  </div>
+  {{/vocab_Definition[[ i ]]}}
+  [% endfor %]
+</div>

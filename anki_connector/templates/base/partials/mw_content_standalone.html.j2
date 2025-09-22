@@ -1,0 +1,96 @@
+<div class="explanation-section mw-section">
+  <h3>📘 Merriam‑Webster</h3>
+  <div class="explanation">
+    {% if mw_data.collegiate %}
+    <div class="mw-block">
+      <h4>Definitions (M‑W Collegiate)</h4>
+      {% for entry in mw_data.collegiate.entries %}
+      <div class="mw-block-entry">
+        {% if entry.headword %}
+        <div class="mw-hw">
+          <strong>{{ entry.headword }}</strong>
+          {% if entry.part_of_speech %} · {{ entry.part_of_speech }}{% endif %}
+        </div>
+        {% endif %}
+
+        {% if entry.stems %}
+        <div class="mw-stems">
+          <strong>Stems:</strong> {{ entry.stems | join(', ') }}
+        </div>
+        {% endif %}
+
+        {% if entry.inflections %}
+        <div class="mw-uros">
+          <strong>Inflections:</strong>
+          {% for inflection in entry.inflections %}
+            {{ inflection.form }}
+            {%- if inflection.type %} ({{ inflection.type }}){% endif %}
+            {%- if not loop.last %}, {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if entry.definitions %}
+        <h5>Definitions</h5>
+        <ul>
+          {% for definition in entry.definitions %}
+          <li>{{ definition }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if entry.examples %}
+        <div class="mw-examples">
+          <h5>Examples</h5>
+          <ul>
+            {% for example in entry.examples %}
+            <li>{{ example }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if entry.learner_definitions %}
+        <div class="mw-ld">
+          <h5>Learner's</h5>
+          <ul>
+            {% for def in entry.learner_definitions %}
+            <li>{{ def }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if entry.etymology %}
+        <div class="mw-et">
+          <strong>Etymology:</strong> {{ entry.etymology | join('; ') }}
+        </div>
+        {% endif %}
+
+        {% if entry.first_known_use %}
+        <div class="mw-date">
+          <strong>First Known Use:</strong> {{ entry.first_known_use }}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if mw_data.thesaurus %}
+    <div class="mw-block">
+      <h4>Thesaurus (M‑W)</h4>
+      {% if mw_data.thesaurus.synonyms %}
+      <div class="mw-syn">
+        <strong>Synonyms:</strong> {{ mw_data.thesaurus.synonyms | join(', ') }}
+      </div>
+      {% endif %}
+      {% if mw_data.thesaurus.antonyms %}
+      <div class="mw-ant">
+        <strong>Antonyms:</strong> {{ mw_data.thesaurus.antonyms | join(', ') }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>

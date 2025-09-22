@@ -1,0 +1,617 @@
+[
+    {
+        "meta": {
+            "id": "project",
+            "uuid": "c7ea601b-3a09-486b-8de9-77bf6468b4da",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "44c97fc7-03b7-425c-8e9b-4968d6319d35",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "project",
+                "projects"
+            ],
+            "syns": [
+                [
+                    "arrangement",
+                    "blueprint",
+                    "design",
+                    "game",
+                    "game plan",
+                    "ground plan",
+                    "master plan",
+                    "plan",
+                    "program",
+                    "road map",
+                    "scheme",
+                    "strategy",
+                    "system"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "project"
+        },
+        "fl": "noun",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "a method worked out in advance for achieving some objective "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "an ambitious {it}project{\/it} to develop the city's waterfront"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "arrangement"
+                                        },
+                                        {
+                                            "wd": "blueprint"
+                                        },
+                                        {
+                                            "wd": "design"
+                                        },
+                                        {
+                                            "wd": "game"
+                                        },
+                                        {
+                                            "wd": "game plan"
+                                        },
+                                        {
+                                            "wd": "ground plan"
+                                        },
+                                        {
+                                            "wd": "master plan"
+                                        },
+                                        {
+                                            "wd": "plan"
+                                        },
+                                        {
+                                            "wd": "program"
+                                        },
+                                        {
+                                            "wd": "road map"
+                                        },
+                                        {
+                                            "wd": "scheme"
+                                        },
+                                        {
+                                            "wd": "strategy"
+                                        },
+                                        {
+                                            "wd": "system"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "collusion"
+                                        },
+                                        {
+                                            "wd": "conspiracy"
+                                        },
+                                        {
+                                            "wd": "plot"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "contrivance"
+                                        },
+                                        {
+                                            "wd": "device"
+                                        },
+                                        {
+                                            "wd": "gambit"
+                                        },
+                                        {
+                                            "wd": "maneuver"
+                                        },
+                                        {
+                                            "wd": "ruse"
+                                        },
+                                        {
+                                            "wd": "stratagem"
+                                        },
+                                        {
+                                            "wd": "subterfuge"
+                                        },
+                                        {
+                                            "wd": "trick"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "counterplan"
+                                        },
+                                        {
+                                            "wd": "counterstrategy"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "means"
+                                        },
+                                        {
+                                            "wd": "tactic"
+                                        },
+                                        {
+                                            "wd": "technique"
+                                        },
+                                        {
+                                            "wd": "way"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "procedure"
+                                        },
+                                        {
+                                            "wd": "protocol"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "conception"
+                                        },
+                                        {
+                                            "wd": "idea"
+                                        },
+                                        {
+                                            "wd": "projet"
+                                        },
+                                        {
+                                            "wd": "proposal"
+                                        },
+                                        {
+                                            "wd": "specific(s)"
+                                        },
+                                        {
+                                            "wd": "specification(s)"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aim"
+                                        },
+                                        {
+                                            "wd": "intent"
+                                        },
+                                        {
+                                            "wd": "intention"
+                                        },
+                                        {
+                                            "wd": "purpose"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "diagram"
+                                        },
+                                        {
+                                            "wd": "formula"
+                                        },
+                                        {
+                                            "wd": "layout"
+                                        },
+                                        {
+                                            "wd": "map"
+                                        },
+                                        {
+                                            "wd": "pattern"
+                                        },
+                                        {
+                                            "wd": "platform"
+                                        },
+                                        {
+                                            "wd": "policy"
+                                        },
+                                        {
+                                            "wd": "recipe"
+                                        },
+                                        {
+                                            "wd": "setup"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a method worked out in advance for achieving some objective"
+        ]
+    },
+    {
+        "meta": {
+            "id": "project",
+            "uuid": "0de3a538-c7be-42ad-8d52-e42aea2cac3e",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "4a28eb4e-0390-435b-9248-9759be1ab93c",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "project",
+                "projectable",
+                "projected",
+                "projecting",
+                "projects"
+            ],
+            "syns": [
+                [
+                    "bag",
+                    "balloon",
+                    "beetle",
+                    "belly",
+                    "billow",
+                    "bulge",
+                    "bunch",
+                    "jut",
+                    "overhang",
+                    "poke",
+                    "pooch",
+                    "pouch",
+                    "pout",
+                    "protrude",
+                    "stand out",
+                    "start",
+                    "stick out",
+                    "swell"
+                ],
+                [
+                    "arrange",
+                    "blueprint",
+                    "budget",
+                    "calculate",
+                    "chart",
+                    "choreograph",
+                    "design",
+                    "frame",
+                    "lay out",
+                    "map (out)",
+                    "organize",
+                    "plan",
+                    "prepare",
+                    "scheme (out)",
+                    "shape",
+                    "strategize (about)"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "project"
+        },
+        "fl": "verb",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to extend outward beyond a usual point "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "some boulders {it}projected{\/it} dangerously out above the trail"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "bag"
+                                        },
+                                        {
+                                            "wd": "balloon"
+                                        },
+                                        {
+                                            "wd": "beetle"
+                                        },
+                                        {
+                                            "wd": "belly"
+                                        },
+                                        {
+                                            "wd": "billow"
+                                        },
+                                        {
+                                            "wd": "bulge"
+                                        },
+                                        {
+                                            "wd": "bunch"
+                                        },
+                                        {
+                                            "wd": "jut"
+                                        },
+                                        {
+                                            "wd": "overhang"
+                                        },
+                                        {
+                                            "wd": "poke"
+                                        },
+                                        {
+                                            "wd": "pooch",
+                                            "wsls": [
+                                                "chiefly dialect"
+                                            ]
+                                        },
+                                        {
+                                            "wd": "pouch"
+                                        },
+                                        {
+                                            "wd": "pout"
+                                        },
+                                        {
+                                            "wd": "protrude"
+                                        },
+                                        {
+                                            "wd": "stand out"
+                                        },
+                                        {
+                                            "wd": "start"
+                                        },
+                                        {
+                                            "wd": "stick out"
+                                        },
+                                        {
+                                            "wd": "swell"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "dome"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "blow up"
+                                        },
+                                        {
+                                            "wd": "inflate"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "dilate"
+                                        },
+                                        {
+                                            "wd": "distend"
+                                        },
+                                        {
+                                            "wd": "expand"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "mushroom"
+                                        },
+                                        {
+                                            "wd": "snowball"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "elongate"
+                                        },
+                                        {
+                                            "wd": "extend"
+                                        },
+                                        {
+                                            "wd": "lengthen"
+                                        },
+                                        {
+                                            "wd": "stretch"
+                                        }
+                                    ]
+                                ],
+                                "near_list": [
+                                    [
+                                        {
+                                            "wd": "compress"
+                                        },
+                                        {
+                                            "wd": "condense"
+                                        },
+                                        {
+                                            "wd": "constrict"
+                                        },
+                                        {
+                                            "wd": "contract"
+                                        },
+                                        {
+                                            "wd": "shrink"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "to work out the details of (something) in advance "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "we must {it}project{\/it} next year's budget now"
+                                            }
+                                        ]
+                                    ]
+                                ],
+                                "syn_list": [
+                                    [
+                                        {
+                                            "wd": "arrange"
+                                        },
+                                        {
+                                            "wd": "blueprint"
+                                        },
+                                        {
+                                            "wd": "budget"
+                                        },
+                                        {
+                                            "wd": "calculate"
+                                        },
+                                        {
+                                            "wd": "chart"
+                                        },
+                                        {
+                                            "wd": "choreograph"
+                                        },
+                                        {
+                                            "wd": "design"
+                                        },
+                                        {
+                                            "wd": "frame"
+                                        },
+                                        {
+                                            "wd": "lay out"
+                                        },
+                                        {
+                                            "wd": "map (out)"
+                                        },
+                                        {
+                                            "wd": "organize"
+                                        },
+                                        {
+                                            "wd": "plan"
+                                        },
+                                        {
+                                            "wd": "prepare"
+                                        },
+                                        {
+                                            "wd": "scheme (out)"
+                                        },
+                                        {
+                                            "wd": "shape"
+                                        },
+                                        {
+                                            "wd": "strategize (about)"
+                                        }
+                                    ]
+                                ],
+                                "rel_list": [
+                                    [
+                                        {
+                                            "wd": "conspire"
+                                        },
+                                        {
+                                            "wd": "contrive"
+                                        },
+                                        {
+                                            "wd": "devise"
+                                        },
+                                        {
+                                            "wd": "intrigue"
+                                        },
+                                        {
+                                            "wd": "machinate"
+                                        },
+                                        {
+                                            "wd": "plot"
+                                        },
+                                        {
+                                            "wd": "put up"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "concert"
+                                        },
+                                        {
+                                            "wd": "get up"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "draft"
+                                        },
+                                        {
+                                            "wd": "outline"
+                                        },
+                                        {
+                                            "wd": "sketch"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "aim"
+                                        },
+                                        {
+                                            "wd": "figure"
+                                        },
+                                        {
+                                            "wd": "have on"
+                                        },
+                                        {
+                                            "wd": "intend"
+                                        },
+                                        {
+                                            "wd": "mean"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "wd": "contemplate"
+                                        },
+                                        {
+                                            "wd": "meditate"
+                                        },
+                                        {
+                                            "wd": "premeditate"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to extend outward beyond a usual point",
+            "to work out the details of (something) in advance"
+        ]
+    }
+]

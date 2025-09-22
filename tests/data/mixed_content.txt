@@ -1,0 +1,11 @@
+apple
+banana
+cherry
+
+# This file has mixed content
+invalid.file.name
+/invalid/path
+
+date
+echo
+file

@@ -1,0 +1,24 @@
+[% extends 'style_base.css.j2' %]
+[% block style %]
+[[ super() ]]
+/* Dark theme via CSS variables */
+:root {
+  --card-bg: #0b1220; /* deep night */
+  --text-color: #e5e7eb;
+  --heading-color: #f9fafb;
+  --body-color: #e5e7eb;
+  --section-bg: rgba(255,255,255,0.06);
+  --definition-item-bg: rgba(0,0,0,0.25);
+  --pos-bg: #3b82f6;
+  --pos-color: #0b1220;
+}
+
+/* Readable accents on dark background */
+.example {
+  color: #fda4af; /* rose-300 */
+}
+.synonyms,
+.antonyms {
+  color: #cbd5e1; /* slate-300 */
+}
+[% endblock %]
